@@ -1,0 +1,56 @@
+.logo {
+	margin-left: -2em;
+	height: 8em;
+	margin-top: -15px;
+}
+
+.footer-copyright {
+	font-family: 'Roboto', serif;
+	color: white;
+
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+body { 
+	background: black !important; 
+}
+
+.col-10 h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    color: white;
+}
+
+.col-10 h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 2.5em;
+    margin-top: 1em;
+    color: white;
+}
+
+.col-10 p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 1.8em;
+    color: white;
+}
+
+html, body {
+  height: 100%;
+}
+
+.container {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.v-center {
+   display: flex;
+   align-items: center;
+}
