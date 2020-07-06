@@ -54,3 +54,37 @@ html, body {
    display: flex;
    align-items: center;
 }
+
+.contact-link {
+    color: white;
+}
+
+.contact-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.social-icons {
+    margin-top: 1em;
+}
+
+.fab {
+    color: white !important;
+    padding-right: 0.4em;
+}
+
+
+.fab:hover {
+    font-size: 23px;
+}
+
+.footer-copyright {
+	font-family: 'Roboto', serif;
+	color: white;
+
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
