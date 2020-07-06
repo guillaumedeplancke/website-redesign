@@ -127,9 +127,12 @@ body {
     padding-right: 0.4em;
 }
 
-
 .fab:hover {
     font-size: 23px;
+}
+
+.cc-window .cc-compliance a:hover {
+    color: dimgray;
 }
 
 .footer-copyright {

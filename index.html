@@ -20,6 +20,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
 	<script src="https://kit.fontawesome.com/2a51fd8a56.js" crossorigin="anonymous"></script>	
+    
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 
 <body>
@@ -57,6 +59,29 @@
 		</div>
 	</div>
 	<!-- End content -->
+    
+    <!-- Cookie Consent --> 
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    
+    <script>
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#000000",
+          "text": "#ffffff"
+        },
+        "button": {
+          "background": "#ffffff",
+          "text": "#000000"
+        }
+      },
+      "position": "bottom-left",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience."
+      }
+    });
+    </script>
+    <!-- End Cookie Consent --> 
 
 	<!-- Copyright Footer -->
 	<div class="footer-copyright text-center py-3">Copyright © 2020 - GuillaumeDeplancke</div>
@@ -72,5 +97,6 @@
             crossorigin="anonymous"></script>
     
     <script src="includes/headlines.js"></script>
+    <!-- End Copyright Footer -->
 </body>
 </html>
