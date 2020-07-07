@@ -115,17 +115,23 @@ body {
 
 
 .v-center {
-   display: flex;
-   align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .contact-link {
     color: white;
+    
+    border-bottom: 1px solid white;
+    padding-bottom: 1.5px;
 }
 
 .contact-link:hover {
     color: white;
     text-decoration: none;
+    
+    border-bottom: 1px solid white;
+    padding-bottom: 0.5px;
 }
 
 .social-icons {
