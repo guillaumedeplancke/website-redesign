@@ -154,6 +154,7 @@ body {
 .footer-copyright {
 	font-family: 'Roboto', serif;
 	color: white;
+    margin-bottom: 1em;
 
 	position: fixed;
 	left: 0;
